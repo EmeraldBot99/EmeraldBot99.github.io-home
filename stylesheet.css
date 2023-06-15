@@ -1,0 +1,152 @@
+/* Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+header {
+    background-color: #002F6C;
+    color: #ffffff;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 28px;
+    text-align: center;
+    z-index: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 0;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font: normal 16px Arial;
+}
+
+nav ul li a:hover {
+    font-weight: bold;
+    text-overflow:none ;
+}
+
+
+
+a:after {
+
+    display: block;
+    content: attr(title);
+    font-weight: bold;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+/* Main Content Styles */
+main {
+    padding: 20px;
+}
+
+h2 {
+    color: #002F6C;
+    font-size: 24px;
+}
+
+h3 {
+    color: #002F6C;
+    font-size: 20px;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 20px 2px;
+    font-size: 18px;
+
+  }
+
+td:nth-child(2) {
+color:#002F6C;
+
+}
+
+/* Styles for quiz questions */
+#quiz-container {
+    margin-top: 20px;
+  }
+  
+  #quiz-container p {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  #quiz-container input[type="text"] {
+    padding: 5px;
+    width: 200px;
+    font-size: 16px;
+  }
+  
+  #quiz-container button {
+    margin-top: 10px;
+    padding: 8px 16px;
+    font-size: 16px;
+    background-color: #4a90e2;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  #quiz-container button:hover {
+    background-color: #3684d9;
+  }
+  
+  /* Highlight styles for correct and incorrect answers */
+  #quiz-container input.correct {
+    background-color: #8aff8a; /* Green highlight for correct answer */
+  }
+  
+  #quiz-container input.incorrect {
+    background-color: #ff8a8a; /* Red highlight for incorrect answer */
+  }
+  
+  #quiz-container .correct-answer {
+    font-size: 14px;
+    color: #4a90e2;
+    margin-top: 5px;
+  }
+  #quiz-container .score {
+    font-size: 18px;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+
+/* Footer Styles */
+footer {
+    background-color: #002F6C;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+}
+
+    
